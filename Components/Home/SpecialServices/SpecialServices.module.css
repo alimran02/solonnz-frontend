@@ -1,0 +1,35 @@
+.serviceContainer{
+        position: absolute;
+        width: 1920px;
+        height: 1920px;
+        left: 0px;
+        background: #FDF5F3;
+}
+.heading{
+        /* position: absolute; */
+        /* width: 857px; */
+        height: 96px;
+        /* left: 531px; */
+        /* top: 2680px; */
+    
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        margin-top: 40px;
+        line-height: 96px;
+    
+        text-align: center;
+    
+        color: #023A15;
+}
+
+.details{
+        color: #102C5C;
+        margin-top: 10px;
+}
+.circle{
+    padding-left: 100px;
+    margin-left: 1000px;
+    margin-top: -65px;
+}

@@ -1,0 +1,44 @@
+.heroContainer{
+    background-image: url("../../../assets/Home/Hero/background.png");
+    object-fit: none;
+}
+
+.heading{
+        /* position: absolute; */
+        width: 917.37px;
+        height: 212px;
+        left: 164.63px;
+        top: 249px;
+        font-family: 'Cormorant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 75px;
+        line-height: 106px;
+        color: #FFFFFF;
+}
+.circleImg{
+    padding-bottom: 220px;
+    padding-right: 150px;
+    margin-right: 450px;
+}
+.verticleImg{
+    margin-top: 55px;
+    margin-right: 750px;
+    padding-right: 100px;
+}
+.circle {
+    background-color: url("../../../assets/Home/Hero/Circle1.png");
+
+    
+}
+.button{
+    background: #fff;
+    border-radius: 30px;
+    padding: 20px 55px;
+    color: #023A15;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    
+    
+}

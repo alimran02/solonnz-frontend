@@ -1,17 +1,13 @@
 .serviceContainer{
         position: absolute;
         width: 1920px;
-        height: 1920px;
+        /* height: 1920px; */
+        height: auto;
         left: 0px;
         background: #FDF5F3;
 }
 .heading{
-        /* position: absolute; */
-        /* width: 857px; */
         height: 96px;
-        /* left: 531px; */
-        /* top: 2680px; */
-    
         font-family: 'Cormorant';
         font-style: normal;
         font-weight: 400;
@@ -32,4 +28,47 @@
     padding-left: 100px;
     margin-left: 1000px;
     margin-top: -65px;
+}
+
+.card{
+        margin-top: -25px;
+        position: relative;
+}
+.serviceName{
+        color: #023A15;
+        font-size: 32px;
+        font-family: 'Cormorant';
+        font-style: normal;
+        padding-top: 10px;
+}
+.detailsService{
+         color: #102C5C;
+         text-align: center;
+         margin-top: 20px;
+}
+.learnmore{
+        color: #319E48;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 36px;
+}
+.textContainer{
+        text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+        .textContainer {
+                        text-align: left;
+                        padding-left: 32px;
+                }
+        .heading{
+                text-align: left;
+                width: auto;
+                font-size: 46px;
+                /* padding-left: 15px; */
+                
+        }
+        
 }

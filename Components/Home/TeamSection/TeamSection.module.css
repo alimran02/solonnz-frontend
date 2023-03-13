@@ -1,16 +1,16 @@
 .teamContainer{
-    /* background-image: url("../../../assets/Home/team/background.png"); */
-    /* object-fit: none; */
     height: 719px;
     background-color: #023A15;
 }
 .textContainer{
-        position: absolute;
+        /* position: absolute; */
+        position: relative;
         height: 96px;
-        left: 46px;
-        top: 2175px;
+        margin-left: 146px;
+        margin-top: 300px;
+        /* top: 2175px; */
         color: #FFFFFF;
-        /* background-color: #023A15; */
+        
 }
 .heading{
     
@@ -40,33 +40,6 @@
 
 
 }
-.imageContainer{
-    display: flex;
-    margin-left: 200px;
-    height: 410px;
-    width: 359;
-    gap: 30px;
-    /* margin-bottom: 300px; */
-}
-.image{
-    /* display: flex; */
-    /* margin-left: -20px; */
-    height: 410px;
-    width: 359;
-    gap: 30px;
-    margin-bottom: 300px;
-}
-.socialMedia{
-    display: none;
-}
-.image:hover{
-    background-color: gainsboro;
-    object-fit: none;
-    border-radius: 180px 180px 0 0;
-    transform: 2s;
-     
-    
-}
 
 .name{
         font-family: 'Cormorant';
@@ -80,13 +53,92 @@
         
 }
 
+
+
+
+
+
+
+/* .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.imageWrapper {
+    position: relative;
+    width: auto;
+    
+    /* height: 200px; */
+    overflow: hidden;
+    margin-right: 20px;
+    margin-top: 80px ;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.imageWrapper:hover img {
+    background-color: gainsboro;
+        object-fit: none;
+        border-radius: 180px 180px 0 0;
+        transform: 2s;
+    /* transform: scale(1.1); */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.socialIcons {
+    position: absolute;
+    /* position: relative; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    /* height: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.socialIcons span {
+    margin: 0 10px 100px 10px;
+  
+    transition: transform 0.2s ease-in-out;
+}
+
+/* .socialIcons:hover span:nth-child(1) {
+    transform: translateX(-10px);
+}
+
+.socialIcons:hover span:nth-child(2) {
+    transform: scale(1.2);
+}
+
+.socialIcons:hover span:nth-child(3) {
+    transform: translateX(10px);
+} */
+
+.imageWrapper:hover .socialIcons {
+    opacity: 1;
+}
+
+
+
+
+
+
   /* Media Query for low resolution  Tablets, Ipads */
   @media (min-width: 481px) and (max-width: 767px) {
     .teamContainer {
-            /* background-image: url("../../../assets/Home/team/background.png"); */
-            /* object-fit: none; */
-            /* height: 719px; */
+            
             background-color: #023A15;
+            height: auto;
         }
   }
 

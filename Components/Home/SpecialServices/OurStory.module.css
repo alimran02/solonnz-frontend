@@ -1,0 +1,86 @@
+.storyContainer {
+    position: absolute;
+    width: 1920px;
+    /* height: 1920px; */
+    height: auto;
+    left: 0px;
+    background: #FDF5F3;
+}
+.img{
+    /* position: absolute; */
+    /* position: relative; */
+    margin-right: 1400px;
+        width: 803px;
+        height: 903px;
+        margin-top: 170px;
+        /* left: -107px; */
+        /* top: 4627px; */
+}
+.halfCircle1 {
+    position: relative;
+    top: 340px;
+    margin-left: -170px;
+    margin-right: -130px;
+    
+    height: 240px;
+
+    width: 290px;
+
+}
+.halfCircle2{
+    margin-left: 470px;
+    margin-top: -45px;
+    
+}
+.bgStory{
+    position: absolute;
+    background-color: #023A15;
+    margin-top: 350px;
+    height: 469px;
+    width: 717px;
+    left: 870px;
+}
+
+.textContainer {
+    /* position: absolute; */
+    position: relative;
+    height: 96px;
+    margin-left: 46px;
+    margin-top: 100px;
+    /* top: 2175px; */
+    color: #FFFFFF;
+
+}
+
+.heading {
+
+    /* width: 468px; */
+    /* height: 96px; */
+    left: 46px;
+    /* top: 2075px; */
+
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+
+.button {
+    background: #fff;
+    border-radius: 30px;
+    padding: 16px 24px;
+    color: #023A15;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+
+
+}
+
+.happyCustomer{
+    position: absolute;
+}
